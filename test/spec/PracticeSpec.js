@@ -143,7 +143,7 @@ describe( "practice.js", () => {
 	describe( "arrow functions", () => {
 		describe( "mooresBits", () => {
 			it( "should be double the bits array", () => {
-				expect( mooresBits ).toEqual( [ 4, 8, 16, 32, 64, 128, 256 ] );
+				expect( mooresBits(bits) ).toEqual( [ 4, 8, 16, 32, 64, 128, 256 ] );
 			} );
 		} );
 
